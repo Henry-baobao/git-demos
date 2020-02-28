@@ -4,7 +4,7 @@
  * @Author: Henry
  * @Date: 2020-02-24 10:38:40
  * @LastEditors: Henry
- * @LastEditTime: 2020-02-28 13:48:13
+ * @LastEditTime: 2020-02-28 14:29:12
  -->
  VSCode中git应用
  ==============
@@ -30,3 +30,6 @@
 ### 推送到远程仓库
 + git push -u origin master
 + git push origin dev
+
+### merge分支
++ git merge --no-ff -m "merge dev to master" dev
